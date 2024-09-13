@@ -1,0 +1,31 @@
+#main-title {
+    color: red
+}
+
+h2 {
+    color: green
+}
+
+.third-title {
+    color: pink
+}
+
+p {
+    font-size: 20px;
+}
+
+.highlight {
+    background-color: aquamarine;
+}
+
+.second-ul {
+    list-style-type: disc;
+}
+
+.second-ul li {
+    color: purple
+}
+
+#special-paragraph {
+    font-style: italic;
+}
