@@ -1,0 +1,12 @@
+nav {
+    background: rgba(0, 0, 255, 0.24)
+}
+
+.navbar-sidebar, aside nav a {
+    background: rgba(0, 195, 255, 0.259);
+    color: white;
+}
+
+footer li > a {
+    color: purple;
+}
