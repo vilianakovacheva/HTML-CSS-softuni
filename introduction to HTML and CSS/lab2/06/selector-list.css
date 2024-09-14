@@ -1,0 +1,35 @@
+header,
+section,
+footer {
+    border: 1px solid grey;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+header nav {
+    display: flex;
+    gap: 30px;
+}
+
+header nav a {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: purple;
+}
+
+header nav a:hover {
+    color: blue;
+}
+
+h2 {
+    font-weight: bold;
+    color: aquamarine;
+}
+
+section p {
+    color: blue;
+}
+
+footer p {
+    color: pink;
+}
