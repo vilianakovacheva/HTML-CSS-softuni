@@ -1,0 +1,42 @@
+/* Descendant Selector: style <p> elements within a <section> differently from other paragraphs */
+section p {
+    color: green
+}
+
+/* Child Selector: to style <li> elements that are direct children of a specific <ul> class differently from other list items. */
+.first-ul > li {
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style: none;
+}
+
+ul li{
+    list-style: none;
+}
+
+.highlighted {
+    background-color: yellow;
+}
+
+/* Adjacent Sibling Selector: style an <article> element that immediately follows another <article>, applying unique styling. */
+.highlighted + article {
+    background-color: blueviolet;
+    color: white;
+}
+
+/* General Sibling Selector: style <p> elements that are siblings following a specific classed <h2>, applying a distinct style. */
+.styled-h2 ~ p {
+    font-style: italic;
+    color: pink;
+}
+
+ul li:first-child {
+    color: khaki;
+}
+
+/* Combining Relative Selectors: style <a> elements within <li> that are directly after an <li> with a specific class. */
+li + li a {
+    color: purple;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
