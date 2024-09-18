@@ -1,0 +1,17 @@
+.uniform-margin {
+    margin: 20px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.non-uniform-margin {
+    margin: 10px 30px 20px 40px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.negative-margin {
+    margin: -20px;
+    border: 1px solid black;
+    padding: 10px;
+}
