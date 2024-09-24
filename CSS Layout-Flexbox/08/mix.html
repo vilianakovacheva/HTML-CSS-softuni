@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mix.css">
+</head>
+<body>
+
+    <h2>flex-shrink: 1 (default)</h2>
+
+    <div class="flex-container sg">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+    </div>
+
+    <h2>flex-shrink: 0</h2>
+
+    <div class="flex-container sg flex-shrink-0">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+    </div>
+
+    <h2>flex-shrink: child 2</h2>
+
+    <div class="flex-container sg flex-shrink-child-2">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+    </div>
+
+    <h2>flex-grow-1</h2>
+
+    <div class="flex-container fg flex-grow-1">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+    </div>
+
+    <h2>flex-grow-2</h2>
+
+    <div class="flex-container flex-grow-2">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+    </div>
+
+    <h2>flex-basis-40px</h2>
+
+    <div class="flex-container flex-basis-40px">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+    </div>
+
+    <h2>flex-basis-40px</h2>
+
+    <div class="flex-container flex-basis-40px self-example">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+    </div>
+    
+</body>
+</html>
