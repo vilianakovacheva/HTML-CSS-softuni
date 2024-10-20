@@ -1,0 +1,31 @@
+@media screen and (max-width: 600px) {
+
+    header nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .header-title {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    .our-dogs ul {
+        gap: 10px 40px;
+    }
+    .our-dogs ul > li {
+        flex: 0 0 calc(50% - 40px);
+    }
+    
+    .our-dogs ul li img {
+        width: 100%;
+        height: unset;
+        object-fit: cover;
+        aspect-ratio: 1 / 1;
+    }
+
+    .helpNeed ul {
+        flex-direction: column;
+    }
+
+}
